@@ -1,12 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="" rel="stylesheet" />
-    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            main: ["Work Sans", "ui-sans-serif"],
+          },
+          extend: {
+            colors: {
+              orange: "#FF5300",
+              accentOrange: "#FFF7F4",
+              mainText: "#373737",
+              secondaryText: "#18191A",
+              gray: "#7B7B7B",
+              secondaryGray: "#3A3B3C",
+              white: "#ffffff",
+              dark: "#242526",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
   </head>
   <body>
-    <h1>About us</h1>
+    <header class="body-font bg-accentOrange">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex font-medium items-center mb-4 hover:scale-105 ease-in duration-200"
+          href="./index.html"
+        >
+          <p class="font-main-600 text-3xl">
+            <span class="text-orange font-main-600">Digi</span>ency
+          </p>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a
+            class="mr-12 hover:text-orange hover:scale-105 ease-in duration-200"
+            href="./index.html"
+            >Home</a
+          >
+          <a
+            class="text-orange mr-12 hover:scale-105 ease-in duration-200"
+            href="./about.html"
+            >About Us</a
+          >
+          <a
+            class="hover:text-orange mr-12 hover:scale-105 ease-in duration-200"
+            href="./blog.html"
+            >Our Blog</a
+          >
+        </nav>
+        <button
+          class="bg-bgc inline-flex items-center border-solid border border-black hover:border-white py-1 px-3 focus:outline-none hover:bg-orange rounded text-base hover:text-white mt-4 md:mt-0 hover:scale-105 ease-in duration-200"
+        >
+          Let’s Talk
+        </button>
+      </div>
+    </header>
+    <footer class="body-font bg-mainText">
+      <div class="container px-5 pt-16 pb-4 mx-auto">
+        <div class="flex flex-wrap md:text-left text-center order-first">
+          <!-- Company block -->
+
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h3 class="font-main-600 text-lg text-white tracking-widest mb-6">
+              Company
+            </h3>
+            <nav class="list-none mb-10">
+              <ul>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Our Work</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Client</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Our Blog</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Services Block -->
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h3 class="font-main-600 text-lg text-white tracking-widest mb-6">
+              Sevices
+            </h3>
+            <nav class="list-none mb-10">
+              <ul>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Graphic Design</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >UI/UX Design</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Web Development</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >App Development</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="#"
+                    >Web Hosting</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Contacts Block -->
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h3 class="font-main-600 text-lg text-white tracking-widest mb-6">
+              Contacts
+            </h3>
+            <nav class="list-none mb-10">
+              <ul>
+                <li class="mb-3">
+                  <a class="text-white hover:text-gray-800"
+                    >3517 W. Gray St. Utica,<br />
+                    Pennsylvania 57867</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="tel:2525550126"
+                    >(252) 555-0126</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a
+                    class="text-white hover:text-orange ease-in duration-100"
+                    href="mailto:info@digiency.com"
+                    >info@digiency.com</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Newsletter Block -->
+
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h3 class="font-main-600 text-lg text-white tracking-widest mb-6">
+              Newsletter
+            </h3>
+            <div
+              class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
+            >
+              <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <!-- Input -->
+                <label for="footer-input" class="leading-7 text-white"
+                  >Lets Stay In Touch</label
+                >
+                <input
+                  type="text"
+                  id="footer-input"
+                  name="footer-input"
+                  class="mt-4 w-full bg-opacity-50 rounded focus:bg-hoverColor focus:text-white text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <button
+                class="lg:mt-2 xl:mt-0 inline-flex bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-hoverColor ransition-colors duration-200 ease-in-out rounded"
+              >
+                <svg class="fill-white" width="24" height="24">
+                  <use href="./icons/sprite.svg#icon-send-plane-fill"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-5 py-6 flex items-center sm:flex-row flex-col bg-orange">
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <span class="ml-3 text-xl text-white">
+            <span class="text-black">Digie</span>ncy</span
+          >
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 text-white">
+          © Copyright 2022. All Right Reserved By Digiency
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <!-- Facebook icon -->
+          <a class="hover:scale-125 ease-in duration-100" href="#">
+            <svg
+              fill="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Twitter Icon -->
+          <a class="ml-3 hover:scale-125 ease-in duration-100" href="#">
+            <svg
+              fill="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Instagram Icon -->
+          <a class="ml-3 hover:scale-125 ease-in duration-100" href="#">
+            <svg
+              fill="none"
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path
+                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- LinkedIn Icon -->
+          <a class="ml-3 hover:scale-125 ease-in duration-100" href="#">
+            <svg
+              fill="white"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="0"
+              class="w-5 h-5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+              ></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
