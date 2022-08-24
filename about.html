@@ -166,7 +166,7 @@
                 class="border border-numbersColor shadow-lg px-4 py-6 rounded-lg hover:scale-110 ease-in duration-200 hover:shadow-xl"
               >
                 <div
-                  class="w-16 h-16 bg-orange rounded-full flex items-center justify-center mx-auto mb-9"
+                  class="w-16 h-16 bg-orange shadow-md shadow-orange/50 rounded-full flex items-center justify-center mx-auto mb-9"
                 >
                   <svg class="w-8 h-8 fill-white">
                     <use href="./icons/sprite.svg#icon-file-line"></use>
@@ -182,7 +182,7 @@
                 class="border border-numbersColor shadow-lg px-4 py-6 rounded-lg hover:scale-110 ease-in duration-200 hover:shadow-xl"
               >
                 <div
-                  class="w-16 h-16 bg-gray rounded-full flex items-center justify-center mx-auto mb-9"
+                  class="w-16 h-16 bg-gray shadow-md shadow-gray/50 rounded-full flex items-center justify-center mx-auto mb-9"
                 >
                   <svg class="w-8 h-8 fill-white">
                     <use href="./icons/sprite.svg#icon-code-line"></use>
@@ -198,7 +198,7 @@
                 class="border border-numbersColor shadow-lg px-4 py-6 rounded-lg hover:scale-110 ease-in duration-200 hover:shadow-xl"
               >
                 <div
-                  class="w-16 h-16 bg-hoverColor rounded-full flex items-center justify-center mx-auto mb-9"
+                  class="w-16 h-16 bg-hoverColor shadow-md shadow-hoverColor/50 rounded-full flex items-center justify-center mx-auto mb-9"
                 >
                   <svg class="w-8 h-8 fill-white">
                     <use href="./icons/sprite.svg#icon-settings-4-line"></use>
@@ -215,7 +215,7 @@
                 class="border border-numbersColor shadow-lg px-4 py-6 rounded-lg hover:scale-110 ease-in duration-200 hover:shadow-xl"
               >
                 <div
-                  class="w-16 h-16 bg-dark rounded-full flex items-center justify-center mx-auto mb-9"
+                  class="w-16 h-16 bg-dark shadow-md shadow-dark/50 rounded-full flex items-center justify-center mx-auto mb-9"
                 >
                   <svg class="w-8 h-8 fill-white">
                     <use href="./icons/sprite.svg#icon-share-box-line"></use>
@@ -231,7 +231,6 @@
       </section>
 
       <!-- Team Section -->
-
       <section>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-8">
@@ -242,9 +241,9 @@
               We Have Some<span class="text-orange"> Awesome</span> People
             </h2>
           </div>
-          <div class="flex -m-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div
-              class="p-4 lg:w-1/4 md:w-1/2 border border-numbersColor rounded-xl shadow-lg hover:scale-105 hover:shadow-xl ease-in duration-200 mr-4"
+              class="p-4 border border-numbersColor rounded-xl shadow-lg hover:scale-105 hover:shadow-xl ease-in duration-200"
             >
               <div class="h-full flex flex-col items-center text-center">
                 <img
@@ -308,7 +307,7 @@
               </div>
             </div>
             <div
-              class="p-4 lg:w-1/4 md:w-1/2 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200 mr-4"
+              class="p-4 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200"
             >
               <div class="h-full flex flex-col items-center text-center">
                 <img
@@ -370,7 +369,7 @@
               </div>
             </div>
             <div
-              class="p-4 lg:w-1/4 md:w-1/2 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200 mr-4"
+              class="p-4 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200"
             >
               <div class="h-full flex flex-col items-center text-center">
                 <img
@@ -432,7 +431,7 @@
               </div>
             </div>
             <div
-              class="p-4 lg:w-1/4 md:w-1/2 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200 mr-4"
+              class="p-4 border border-numbersColor rounded-xl shadow-lg hover:scale-110 hover:shadow-xl ease-in duration-200"
             >
               <div class="h-full flex flex-col items-center text-center">
                 <img
@@ -496,15 +495,84 @@
           </div>
         </div>
       </section>
+      <!-- Section -->
 
-      <!-- Contacts Section -->
+      <section class="bg-accentOrange">
+        <div
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        >
+          <div
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          >
+            <p class="lg:w-1/2 w-full leading-relaxed text-orange mb-4">
+              Our Expereince ___
+            </p>
+            <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium">
+              We Have Completed
+              <span class="text-orange">
+                150+ <br class="hidden lg:inline-block" />Projects</span
+              >
+              Succesfully
+            </h2>
+            <p class="mb-8 leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+              imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum
+              aenean. Nisi, lectus aliquet aliquam consectetur augue praesent.
+              Lorem vulputate orci eget mi, sed pulvinar. Ornare etiam erat
+              volutpat tempor fringilla mi. Elit a blandit faucibus est, dui
+              interdum ut amet. Adipiscing feugiat vel at posuere in.
+              Pellentesque volutpat vestibulum.
+            </p>
+          </div>
+          <div
+            class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 grid grid-cols-2 gap-6"
+          >
+            <div>
+              <div
+                class="border border-numbersColor shadow-xl rounded-2xl py-8 sm:py-12 lg:py-20 px-10 flex flex-col items-center justify-center mb-6"
+              >
+                <p class="font-bold text-xl sm:text-2xl lg:text-3xl mb-5">
+                  250+
+                </p>
+                <p class="text-gray text-center">Global Customer</p>
+              </div>
+              <div
+                class="border border-numbersColor shadow-xl rounded-2xl py-8 sm:py-12 lg:py-20 px-10 flex flex-col items-center justify-center"
+              >
+                <p class="font-bold text-xl sm:text-2xl lg:text-3xl mb-5">50</p>
+                <p class="text-gray text-center">Team Member</p>
+              </div>
+            </div>
+            <div class="pt-6">
+              <div
+                class="border border-numbersColor shadow-xl rounded-2xl py-8 sm:py-12 lg:py-20 px-10 flex flex-col items-center justify-center mb-6"
+              >
+                <p class="font-bold text-xl sm:text-2xl lg:text-3xl mb-5">
+                  156+
+                </p>
+                <p class="text-gray text-center">Project Completed</p>
+              </div>
+              <div
+                class="border border-numbersColor shadow-xl rounded-2xl py-8 sm:py-12 lg:py-20 px-10 flex flex-col items-center justify-center"
+              >
+                <p class="font-bold text-xl sm:text-2xl lg:text-3xl mb-5">
+                  15+
+                </p>
+                <p class="text-gray text-center">Our Company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Us Section -->
       <section>
         <div
-          class="container px-5 grid gap-8 grid-cols-1 md:grid-cols-2 py-24 mx-auto rounded-lg"
+          class="container px-5 grid gap-8 grid-cols-1 md:grid-cols-2 pt-24 pb-8 mx-auto rounded-lg"
         >
           <div class="flex flex-col">
             <div>
-              <h2 class="text-4xl lg:text-5xl font-bold leading-tight">
+              <h2 class="sm:text-4xl text-3xl mb-4 font-medium text-center">
                 Send Your <span class="text-orange">Message To Us</span>
               </h2>
             </div>
@@ -553,6 +621,56 @@
               </button>
             </div>
           </form>
+        </div>
+      </section>
+      <!-- Contacts Section -->
+
+      <section class="relative">
+        <div class="container px-5 pb-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div
+            class="w-full rounded-lg overflow-hidden pt-96 pb-10 flex items-end justify-start relative border border-numbersColor shadow-xl"
+          >
+            <iframe
+              class="absolute inset-0"
+              title="map"
+              loading="lazy"
+              marginheight="0"
+              marginwidth="0"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=3517%20W.%20Gray%20St.%20Utica,%20Pennsylvania%2057867+()t=&z=14&ie=UTF8&iwloc=B&output=embed"
+              width="100%"
+              height="100%"
+              frameborder="0"
+            ></iframe>
+            <div
+              class="bg-white relative flex flex-wrap py-6 rounded shadow-lg mx-3"
+            >
+              <div class="lg:w-1/2 px-6">
+                <h3 class="title-font font-bold tracking-widest text-xs">
+                  ADDRESS
+                </h3>
+                <p class="mt-1">3517 W. Gray St. Utica, Pennsylvania 57867</p>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h3 class="title-font font-bold tracking-widest text-xs">
+                  EMAIL
+                </h3>
+                <a
+                  href="mailto:info@digiency.com"
+                  class="leading-relaxed hover:text-orange ease-in duration-100"
+                  >info@digiency.com</a
+                >
+                <h3 class="title-font font-bold tracking-widest text-xs mt-4">
+                  PHONE
+                </h3>
+                <a
+                  href="tel:2525550126"
+                  class="leading-relaxed hover:text-orange ease-in duration-100"
+                  >(252) 555-0126</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
