@@ -1,6 +1,6 @@
 # Digiency
 
-Simple landing page to improve my Tailwind knowledge.
+Simple fully responsive landing page to improve my Tailwind knowledge.
 
 # Tech Stack
 
