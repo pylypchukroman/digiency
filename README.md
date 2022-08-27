@@ -1,4 +1,4 @@
-# Digiency
+# Digiency - digital agency page
 
 Simple fully responsive landing page to improve my Tailwind knowledge.
 
